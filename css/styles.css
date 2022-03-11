@@ -9,14 +9,23 @@
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
-    width: 250px;
+    width: 700px;
     height: 500px;
-    background-color:palegoldenrod;
+    /* background-color:palegoldenrod; */
+    background-image: url("../img/blenderOff.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
 }
+
+.blender-On{
+    background-image: url("../img/blenderOn.gif");
+}
+
 
 .blender-button {
     margin: 350px auto 0px;
     width: 70px;
     height: 70px;
-    background-color: palevioletred;
+    /* background-color: palevioletred; */
 }
